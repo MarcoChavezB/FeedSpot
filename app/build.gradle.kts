@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.feedspot"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.feedspot"
@@ -32,7 +32,6 @@ android {
 }
 
 dependencies {
-
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
