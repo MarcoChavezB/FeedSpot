@@ -5,6 +5,10 @@ plugins {
 android {
     namespace = "com.example.feedspot"
     compileSdk = 34
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8c656666ae85bf41fe5d902cc82d50cae7b85270
 
     defaultConfig {
         applicationId = "com.example.feedspot"
@@ -38,4 +42,6 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation("androidx.compose.material3:material3:1.1.2")
+    implementation("androidx.compose.material3:material3-window-size-class:1.1.2")
 }
