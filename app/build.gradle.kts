@@ -5,10 +5,6 @@ plugins {
 android {
     namespace = "com.example.feedspot"
     compileSdk = 34
-<<<<<<< HEAD
-=======
-
->>>>>>> 8c656666ae85bf41fe5d902cc82d50cae7b85270
 
     defaultConfig {
         applicationId = "com.example.feedspot"
