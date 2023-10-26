@@ -6,7 +6,6 @@ android {
     namespace = "com.example.feedspot"
     compileSdk = 34
 
-
     defaultConfig {
         applicationId = "com.example.feedspot"
         minSdk = 29
