@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 
+import com.example.feedspot.Routes.Router;
+
 public class MainActivity extends AppCompatActivity {
 
     CountDownTimer timeout;
@@ -18,11 +20,10 @@ public class MainActivity extends AppCompatActivity {
             public void onTick(long millisUntilFinished) {
 
             }
-
             @Override
             public void onFinish() {
-                Intent intent = new Intent(MainActivity.this, register.class);
-                startActivity(intent);
+
+                Router.redirectTo(MainActivity.this, register.class);
             }
         };
 

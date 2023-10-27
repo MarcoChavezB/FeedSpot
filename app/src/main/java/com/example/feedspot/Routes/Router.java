@@ -1,10 +1,11 @@
 package com.example.feedspot.Routes;
 
+import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 
 public class Router {
-    public void redirectTo(String actual, String destino){
-        Intent intent = new Intent();
+    public static void redirectTo(Context context, Class<?> destinationClass) {
+        Intent intent = new Intent(context, destinationClass);
+        context.startActivity(intent);
     }
 }

@@ -9,7 +9,6 @@ import com.example.feedspot.Routes.Router;
 
 public class login extends AppCompatActivity {
     Button btnLogin;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
